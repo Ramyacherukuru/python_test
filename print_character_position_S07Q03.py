@@ -1,0 +1,5 @@
+Sentence = str(input("Enter the string:"))
+print(Sentence[-1:])
+print(Sentence[5:])
+print((Sentence[1:2]) + (Sentence[4:5]))
+print(Sentence[4:7])
