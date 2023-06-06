@@ -2,11 +2,12 @@ filename = input("Enter the name of the text file: ")
 FH = open(filename,'r')
 all_text = FH.read()
 all_lines = all_text.split('.')
-print(all_lines)
+#print(all_lines)
 all_sent = []
 for line in all_lines:
     if (line.strip()[0].isupper()):
         all_sent.append(True)
+        #print(repr(line))
         
     else:
         all_sent.append(False)
