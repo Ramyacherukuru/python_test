@@ -7,11 +7,11 @@ while True:
     students.append((name,int(marks)))
 
 s = sorted(students,  key = lambda  x:x[1])
-print("stdedgvhhgf more than 90:")
+print("students who scores more than 90:")
 
 for student in s:
     if student[1] > 90:
-        print(student[0])
+        print(student)
 
 
 
